@@ -1,0 +1,57 @@
+body {
+    overflow: hidden;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 4vh auto;
+    border: 1px solid gray;
+    background-color: deepskyblue;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    padding: 2em;
+    border-radius: 2em;
+}
+
+#container:hover {
+    cursor: default;
+}
+
+.separator {
+    content: '';
+    background-color: gray;
+    margin: 1em auto;
+    width: 97%;
+    height: .05em;
+}
+
+#reload {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rlButton {
+    box-sizing: border-box;
+    padding: 1em;
+    background-color: white;
+    color: dodgerblue;
+    border: 1px solid gray;
+    border-radius: 1.5em;
+    font-weight: bold;
+    font-size: 1em;
+    margin: .33em .2em;
+}
+
+#rlButton:hover {
+    padding: 1.2em;
+    cursor: pointer;
+    transition: 300ms;
+    font-size: 1.1em;
+    margin: 0;
+}
